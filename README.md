@@ -1,2 +1,2 @@
 # Daniel_CinemaDeChexbres
-Redesigner le site de cinema de chexbres
+Re designer le site de cinema de chexbres
