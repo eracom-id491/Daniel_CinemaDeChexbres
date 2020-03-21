@@ -1,32 +1,60 @@
-<!DOCTYPE html>>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<title>Cinéma Chexbres</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<style media="screen">
+
 			body{
-				font-family: "Futura";
+				font-family: "Avenir";
 			}
 
 			header
 			{
+				margin-top: 2rem;
 				margin-bottom: 4rem;
+			}
+
+			#Tête h1{
+				font-size: 100px;
 			}
 
 			#affiche{
 				background-color: black;
 			    margin-bottom: 4rem;
 			}
+			#affiche h1{
+				color: white;
+				font-size: 60px;
+			}
+			#affiche h3{
+				color: white;
+			}
 			#affiche h2{
 				color: red;
 				margin-top: -2rem;
 				text-align: right;
+				margin-right: 14rem;
 			}
 			#affiche button{
-				margin-top: 14rem;
-				width: 50%;
+				margin-top: 11rem;
+				width: 40%;
 			}
+
+			.encartHaut{
+				width: 500px;
+				height: 30px;
+				/*background-color: #AEF;*/
+				float: left;
+			}
+			.encartBas{
+				width: 500px;
+				height: 30px;
+				/*background-color: #AEF;*/
+				float: left;
+			}
+
 			#TexteAffiche{
 
 			}
@@ -39,9 +67,9 @@
 	<body>
 		<header class="container">
 			<div class="row">
-				<nav class="col-md-3">
-					<p1>Logo</p1>
-					<h6>cinecinecinecine</h6>
+				<nav class="col-md-3" id=("Tête")>
+					<h1><b>Cinema Chexbres</b></h1>
+					<h6>cinema de la grande salle</h6>
 				</nav>
 			</div>
 		</header>
@@ -50,13 +78,17 @@
 
 			<section class="row" id="affiche">
 				<div class="col-md-6">
-						<div class="col-md-6"><img src="https://picsum.photos/500/700?random=1"> </div>
+					<div class="encartHaut"></div>
+					<div class="col-md-6"><img src="https://picsum.photos/500/700?random=1"> </div>
+					<div class="encartBas"></div>
 				</div>
 				<div class="col-md-6" id="TexteAffiche">
-					<h1>Titre</h1>
+					<div class="encartHaut"></div>
+					<h1><b>Titre</b></h1>
 					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-					<button type="button">Click Me!</button>
+					<button type="button">Acheter un billet</button>
 					<h2>8CHF</h3>
+					<div class="encartBas"></div>
 				</div>
 			</section>
 
@@ -66,13 +98,17 @@
 
 			<section class="row" id="affiche">
 				<div class="col-md-6">
-						<div class="col-md-6"><img src="https://picsum.photos/500/700?random=1"> </div>
+					<div class="encartHaut"></div>
+					<div class="col-md-6"><img src="https://picsum.photos/500/700?random=0"> </div>
+					<div class="encartBas"></div>
 				</div>
 				<div class="col-md-6" id="TexteAffiche">
-					<h1>Titre</h1>
+					<div class="encartHaut"></div>
+					<h1><b>Titre</b></h1>
 					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-					<button type="button">Click Me!</button>
+					<button type="button">Acheter un billet</button>
 					<h2>8CHF</h3>
+					<div class="encartBas"></div>
 				</div>
 			</section>
 
