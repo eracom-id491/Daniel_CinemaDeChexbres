@@ -1,0 +1,48 @@
+body{
+	font-family: "Avenir";
+}
+
+header
+{
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+}
+
+#Tête h1{
+	font-size: 100px;
+}
+
+#affiche{
+	background-color: black;
+	margin-bottom: 4rem;
+}
+#affiche h1{
+	color: white;
+	font-size: 60px;
+}
+#affiche h3{
+	color: white;
+}
+#affiche h2{
+	color: red;
+	margin-top: -2rem;
+	text-align: right;
+	margin-right: 14rem;
+}
+#affiche button{
+	margin-top: 11rem;
+	width: 40%;
+}
+
+.encartHaut{
+	width: 500px;
+	height: 30px;
+	/*background-color: #AEF;*/
+	float: left;
+}
+.encartBas{
+	width: 500px;
+	height: 30px;
+	/*background-color: #AEF;*/
+	float: left;
+}
