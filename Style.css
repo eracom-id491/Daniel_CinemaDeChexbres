@@ -1,19 +1,19 @@
 body
 {
 	font-family: avenir;
-	background-color: #0D0D0D;
+	background-color: #F7FFFF;
 }
 
 header{
 	margin-top: 3rem;
-	margin-bottom: 3rem;
-	color: white;
+	margin-bottom: 10rem;
+	color: #F7FFFF;
 }
 
 #Tête h1
 {
 		font-size: 75px;
-		text-shadow: 2px 2px 10px rgba(204,35,20,0.25);
+		text-shadow: 2px 2px 10px rgba(0,0,00,0.25);
 }
 #SousTitre h6
 {
@@ -21,44 +21,54 @@ header{
 		margin-left: 20rem;
 		font-size: 15px;
 		text-align: left;
-		color: #CC2314;
+		color: #BFBFBF;
 }
 
 #affiche
 {
 		margin-bottom: 3rem;
-		background-color: #1A1A1A;
+		background-color: #F7FFFF;
 		padding-right: 0px;
 		padding-left: 0px;
 		padding-top: 33px;
 		padding-bottom: 33px;
-		box-shadow: 0px 20px 50px rgba(0,0,0,1);
-		border-radius: 30px;
+		box-shadow: 0px 20px 12px rgba(0,0,0,0.15);
+		/*border-radius: 30px;*/
 }
 
 #affiche img
 {
-		box-shadow: 0px 5px 30px rgba(0,0,0,0.5);
-		border-radius: 20px;
+		box-shadow: 0px 5px 12px rgba(0,0,0,0.15);
+		/*border-radius: 20px;*/
 }
 
 #affiche h1
 {
-	color: white;
+	color: #BFBFBF;
 	font-size: 60px;
 }
 #TexteAffiche h2
 {
-	color: #CC2314;
+	color: #BFBFBF;
 }
 
 h3
 {
 	color: #BFBFBF;
+	text-align: justify;
+	margin-right: 1rem;
 }
 
 button
 {
 	border-radius: 50px;
 	size: 50px;
+}
+
+#Jours
+{
+	font-size: 35px;
+	margin-top: 3rem;
+	margin-bottom: 0.25rem;
+	color: #686B6B;;
 }
